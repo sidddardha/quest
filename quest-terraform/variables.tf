@@ -9,3 +9,8 @@ variable "docker_image" {
 variable "app_name" {
   default = "quest-app"
 }
+
+variable "key_name" {
+  description = "AWS Key Pair to connect to EC2"
+  type        = string
+}
